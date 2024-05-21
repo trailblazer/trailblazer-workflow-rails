@@ -1,0 +1,278 @@
+[
+  {
+    "id": "catch-before-Activity_1ez39aa",
+    "event_label": "⛾ ⏵︎Create",
+    "start_task_position": {
+      "tuple": [
+        "lifecycle",
+        "catch-before-Activity_1ez39aa"
+      ],
+      "comment": [
+        "before",
+        "⛾ ⏵︎Create"
+      ]
+    },
+    "start_positions": [
+      {
+        "tuple": [
+          "lifecycle",
+          "suspend-gw-to-catch-before-Activity_1ez39aa"
+        ],
+        "comment": [
+          "before",
+          "⛾ ⏵︎Create"
+        ]
+      },
+      {
+        "tuple": [
+          "engine",
+          "suspend-gw-to-catch-before-Activity_0i2r3tw"
+        ],
+        "comment": [
+          "before",
+          "☑ ⏵︎Instantiate"
+        ]
+      }
+    ],
+    "suspend_positions": [
+      {
+        "tuple": [
+          "lifecycle",
+          "suspend-gw-to-catch-before-Activity_09iqmyp"
+        ],
+        "comment": [
+          "before",
+          "⛾ ⏵︎Update"
+        ]
+      },
+      {
+        "tuple": [
+          "engine",
+          "suspend-gw-to-catch-before-Activity_1g6hk1o"
+        ],
+        "comment": [
+          "before",
+          "☑ ⏵︎Modify"
+        ]
+      }
+    ],
+    "suspend_task_position": {
+      "tuple": [
+        "lifecycle",
+        "catch-before-Activity_1ez39aa"
+      ],
+      "comment": [
+        "before",
+        "⛾ ⏵︎Create"
+      ]
+    },
+    "outcome": "success"
+  },
+  {
+    "id": "catch-before-Activity_1ez39aa",
+    "event_label": "⛾ ⏵︎Create ⛞",
+    "start_task_position": {
+      "tuple": [
+        "lifecycle",
+        "catch-before-Activity_1ez39aa"
+      ],
+      "comment": [
+        "before",
+        "⛾ ⏵︎Create"
+      ]
+    },
+    "start_positions": [
+      {
+        "tuple": [
+          "lifecycle",
+          "suspend-gw-to-catch-before-Activity_1ez39aa"
+        ],
+        "comment": [
+          "before",
+          "⛾ ⏵︎Create"
+        ]
+      },
+      {
+        "tuple": [
+          "engine",
+          "suspend-gw-to-catch-before-Activity_0i2r3tw"
+        ],
+        "comment": [
+          "before",
+          "☑ ⏵︎Instantiate"
+        ]
+      }
+    ],
+    "suspend_positions": [
+      {
+        "tuple": [
+          "lifecycle",
+          "Event_1q1vom7"
+        ],
+        "comment": [
+          "terminus",
+          "failure"
+        ]
+      },
+      {
+        "tuple": [
+          "engine",
+          "suspend-gw-to-catch-before-Activity_0i2r3tw"
+        ],
+        "comment": [
+          "before",
+          "☑ ⏵︎Instantiate"
+        ]
+      }
+    ],
+    "suspend_task_position": {
+      "tuple": [
+        "lifecycle",
+        "catch-before-Activity_1ez39aa"
+      ],
+      "comment": [
+        "before",
+        "⛾ ⏵︎Create"
+      ]
+    },
+    "outcome": "failure"
+  },
+  {
+    "id": "catch-before-Activity_09iqmyp",
+    "event_label": "⛾ ⏵︎Update",
+    "start_task_position": {
+      "tuple": [
+        "lifecycle",
+        "catch-before-Activity_09iqmyp"
+      ],
+      "comment": [
+        "before",
+        "⛾ ⏵︎Update"
+      ]
+    },
+    "start_positions": [
+      {
+        "tuple": [
+          "lifecycle",
+          "suspend-gw-to-catch-before-Activity_09iqmyp"
+        ],
+        "comment": [
+          "before",
+          "⛾ ⏵︎Update"
+        ]
+      },
+      {
+        "tuple": [
+          "engine",
+          "suspend-gw-to-catch-before-Activity_1g6hk1o"
+        ],
+        "comment": [
+          "before",
+          "☑ ⏵︎Modify"
+        ]
+      }
+    ],
+    "suspend_positions": [
+      {
+        "tuple": [
+          "lifecycle",
+          "Event_1vobcpt"
+        ],
+        "comment": [
+          "terminus",
+          "success"
+        ]
+      },
+      {
+        "tuple": [
+          "engine",
+          "Event_0s0ater"
+        ],
+        "comment": [
+          "terminus",
+          "success"
+        ]
+      }
+    ],
+    "suspend_task_position": {
+      "tuple": [
+        "lifecycle",
+        "catch-before-Activity_09iqmyp"
+      ],
+      "comment": [
+        "before",
+        "⛾ ⏵︎Update"
+      ]
+    },
+    "outcome": "success"
+  },
+  {
+    "id": "catch-before-Activity_09iqmyp",
+    "event_label": "⛾ ⏵︎Update ⛞",
+    "start_task_position": {
+      "tuple": [
+        "lifecycle",
+        "catch-before-Activity_09iqmyp"
+      ],
+      "comment": [
+        "before",
+        "⛾ ⏵︎Update"
+      ]
+    },
+    "start_positions": [
+      {
+        "tuple": [
+          "lifecycle",
+          "suspend-gw-to-catch-before-Activity_09iqmyp"
+        ],
+        "comment": [
+          "before",
+          "⛾ ⏵︎Update"
+        ]
+      },
+      {
+        "tuple": [
+          "engine",
+          "suspend-gw-to-catch-before-Activity_1g6hk1o"
+        ],
+        "comment": [
+          "before",
+          "☑ ⏵︎Modify"
+        ]
+      }
+    ],
+    "suspend_positions": [
+      {
+        "tuple": [
+          "lifecycle",
+          "Event_1q1vom7"
+        ],
+        "comment": [
+          "terminus",
+          "failure"
+        ]
+      },
+      {
+        "tuple": [
+          "engine",
+          "suspend-gw-to-catch-before-Activity_1g6hk1o"
+        ],
+        "comment": [
+          "before",
+          "☑ ⏵︎Modify"
+        ]
+      }
+    ],
+    "suspend_task_position": {
+      "tuple": [
+        "lifecycle",
+        "catch-before-Activity_09iqmyp"
+      ],
+      "comment": [
+        "before",
+        "⛾ ⏵︎Update"
+      ]
+    },
+    "outcome": "failure"
+  }
+]

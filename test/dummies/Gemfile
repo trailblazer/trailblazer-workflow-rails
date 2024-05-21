@@ -1,0 +1,12 @@
+source "https://rubygems.org"
+
+gem "rake"
+gem "actionpack", "~> 7.0"
+gem "railties"
+# gem "sqlite3"
+gem "trailblazer-workflow", path: "../../../trailblazer-workflow" # FIXME
+gem "trailblazer-workflow-rails", path: "../../../trailblazer-workflow-rails"
+gem "trailblazer-pro-rails", path: "../../../trailblazer-pro-rails"
+gem "trailblazer-pro", path: "../../../trailblazer-pro" # FIXME
+
+gem "minitest-line"
