@@ -9,5 +9,6 @@ module Trailblazer
 end
 
 require "trailblazer-pro-rails"
+require "trailblazer/workflow/task/import"
 require_relative "rails/generator/import"
 require_relative "rails/generator/discover"

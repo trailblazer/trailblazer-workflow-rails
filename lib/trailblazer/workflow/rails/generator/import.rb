@@ -7,7 +7,7 @@ module Trailblazer
 
       def import_file_via_api
         # TODO: use endpoint logic here.
-        signal, (ctx, _) = Trailblazer::Developer.wtf?(Trailblazer::Pro::Editor::Import, [
+        signal, (ctx, _) = Trailblazer::Developer.wtf?(Trailblazer::Workflow::Task::Import, [
           {
             diagram_slug: slug,
             target_filename: target,
@@ -17,7 +17,7 @@ module Trailblazer
         ])
 
         return puts("Diagram #{slug} successfully imported to #{target}.") if signal.to_h[:semantic] == :success
-        raise "error: #{ctx[:error_message]}"
+        raise "[TRB PRO] error: #{ctx[:error_message]}"
       end
     end # Import
   end
